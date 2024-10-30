@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: rgb(255, 255, 241); */
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  margin: auto;
+  /* background: #fff; */
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: center;
+}
+.menu-nav button:hover {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.container .city {
+  color: rgb(49, 22, 22);
+  font-size: 18px;
+}
+.navbar button {
+  color: #333;
+  border: none;
+  background: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: auto;
+}
+
+/* Card Styling */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 16px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(255, 255, 241);
+  align-items: center;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+  /* Stack the navbar links vertically on small screens */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .menu-nav {
+    flex-direction: column;
+  }
+
+  .navbar button {
+    padding: 10px;
+
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  .menu-nav {
+    display: flex;
+    gap: 2;
+  }
+  .menu-nav button {
+    background-color: yellow;
+    color: #333;
+    border: none;
+    margin: 5px;
+  }
+  /* Adjust card layout on small screens */
+  .card {
+    width: 90%;
+    margin: 10px;
+  }
+
+  /* Adjust font size and padding */
+  .container {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .navbar a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .container h4 {
+    font-size: 18px;
+  }
+
+  .container p {
+    font-size: 14px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 255, 241);
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  margin: auto;
+  background: #fff;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: auto;
+}
+
+/* Card Styling */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 350px;
+  height: auto;
+  margin: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 16px;
+}
+
+.container img {
+  margin: auto;
+  width: 250px;
+  margin-top: 30px;
+  height: 200px;
+  display: block;
+}
+
+.section-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+  /* Stack the navbar links vertically on small screens */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .menu-nav {
+    flex-direction: column;
+  }
+
+  .navbar a {
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px 0;
+  }
+
+  /* Adjust card layout on small screens */
+  .card {
+    width: 90%;
+    margin: 10px;
+  }
+
+  /* Adjust font size and padding */
+  .container {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .navbar a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .container h4 {
+    font-size: 18px;
+  }
+
+  .container p {
+    font-size: 14px;
+  }
+}
+/* hooke */
+.btn {
+  color: #333;
+  background-color: #fff;
+  border: #333;
+  padding: 10px 20px;
+}
+.container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

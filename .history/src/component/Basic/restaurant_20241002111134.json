@@ -1,0 +1,25 @@
+[
+  {
+    "Id": 1,
+    "city": "Mumbai",
+    "Monuments": "Gateway of India",
+    "Description": "The Gateway of India is a 26-meter (85-foot) tall arch monument in Mumbai, India that was built to commemorate the visit of King George V and Queen Mary in 1911",
+    "Image": "/Image/red fort.jpeg"
+  },
+
+  {
+    "Id": 5,
+    "city": "Delhi",
+    "Monuments": "Red Fort",
+    "Description": "Red Fort Known for its architectural splendor, it is primarily constructed from red sandstone and marble, hence its name. The fort's construction began in 1639 and took nearly a decade. Originally known as 'Qila-i-Mubarak', it was later renamed Red Fort.",
+    "Image": "/Image/gateway of india.jpeg"
+  },
+
+  {
+    "Id": 9,
+    "city": "Nalanda",
+    "Monuments": "Nanlanda University",
+    "Description": "The Nalanda Mahavihara site is in the State of Bihar, in north-eastern India. It comprises the archaeological remains of a monastic and scholastic institution dating from the 3rd century BCE to the 13th century CE. .",
+    "Image": "/Image/NAlanda.jpeg"
+  }
+]

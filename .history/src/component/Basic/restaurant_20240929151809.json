@@ -1,0 +1,15 @@
+[
+  {
+    "Id":1,
+    "city": "Mumbai",
+    "Monuments": "Gateway of India",
+    "Description": "The Gateway of India is a 26-meter (85-foot) tall arch monument in Mumbai, India that was built to commemorate the visit of King George V and Queen Mary in 1911",
+    "Image":"/Image/red fort.jpeg"
+  },
+  {
+    "Id":2,
+    "city": "Delhi",
+    "Monuments": "Red Fort",
+    "Description": "Red Fort Known for its architectural splendor, it is primarily constructed from red sandstone and marble, hence its name. The fort's construction began in 1639 and took nearly a decade. Originally known as 'Qila-i-Mubarak', it was later renamed Red Fort."
+  }
+]

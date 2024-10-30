@@ -1,0 +1,14 @@
+[
+  {
+    "Id":1,
+    "city": "Mumbai",
+    "Monuments": "Gateway of India",
+    "Description": ""
+  },
+  {
+    "Id":2,
+    "city": "Delhi",
+    "Monuments": "Red Fort",
+    "Description": ""
+  }
+]

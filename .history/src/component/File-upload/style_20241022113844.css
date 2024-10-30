@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: auto;
+}
+.form-control {
+  margin: auto !important;
+}
+input[type="file"],
+input {
+  display: none !important;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50px !important;
+  height: 50px !important;
+  color: blueviolet;
+  background-color: aqua;
+}
