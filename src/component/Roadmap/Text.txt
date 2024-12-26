@@ -1,0 +1,157 @@
+Simple Calculator 
+Recipe Finder App
+Movie Search App
+Notes App with Local Storage
+Markdown Previewer
+Expense Tracker
+E-commerce Store
+Social Media Dashboard
+Chat Application (with Firebase or WebSockets)
+Blog Platform with Authentication
+Project Management Tool
+Real-time Data Dashboard
+Video Streaming Platform (YouTube clone)
+
+Advanced Concepts & Tools
+Server-Side Rendering (SSR) with Next.js
+
+Objective: Learn Next.js for SEO-friendly, server-side rendering of React apps.
+Key Concepts: SSR, static site generation (SSG), Next.js routing, API routes.
+Progressive Web App (PWA)
+
+Objective: Turn your React app into a Progressive Web App with offline capabilities and push notifications.
+Key Concepts: Service workers, manifest file, caching strategies, offline functionality.
+React Native Mobile App
+
+Objective: Build a mobile app using React Native to learn cross-platform development for iOS and Android.
+Key Concepts: React Native components, navigation, native modules, expo.
+Additional Skills to Learn:
+React Router for navigation.
+State Management Libraries (Redux, Zustand, Recoil).
+API Integration (GraphQL, REST APIs).
+Testing with Jest and React Testing Library.
+Form Handling (Formik, React Hook Form).
+Styling (CSS-in-JS with styled-components, Tailwind CSS).
+
+
+
+
+
+
+
+
+//Learn
+Component Lifecycle Methods (Class Components)
+useContext Hook
+useReducer Hook 
+Error Boundaries
+React DevTools
+React Forms
+PropTypes and Type Checking
+Custom Hooks
+Higher-Order Components (HOCs)
+React Context API (Advanced Usage)
+Memoization: React.memo & useMemo
+Lazy Loading and Code Splitting
+Code Splitting and Dynamic Imports
+Server-Side Rendering (SSR) with Next.js
+React and Redux (State Management) 
+Testing with Jest and React Testing Library
+TypeScript with React 
+React Suspense for Data Fetching 
+
+
+Progressive Web Apps (PWA)
+
+Web Performance Optimization
+
+React Native
+
+GraphQL with React
+
+React and Firebase
+
+
+Handling real-time data with WebSockets in React applications.
+
+///Hookes 
+useState
+
+Manages state in functional components.
+useEffect
+
+Performs side effects such as data fetching or subscriptions.
+useContext
+
+Accesses context values without passing props.
+useReducer
+
+Manages complex state logic using actions and reducers (alternative to useState).
+useCallback
+
+Memoizes callback functions to avoid unnecessary re-creations on re-renders.
+useMemo
+
+Memoizes expensive calculations to optimize performance.
+useRef
+
+Creates mutable references that persist across re-renders (e.g., DOM references).
+useImperativeHandle
+
+Customizes the instance value that is exposed when using ref in functional components.
+useLayoutEffect
+
+Similar to useEffect, but runs synchronously after all DOM mutations.
+useDebugValue
+
+Displays a label for custom hooks in React DevTools.
+
+//Redux 
+1. Store
+Centralized place to hold the application's state.
+The only source of truth for the app's state.
+2. Actions
+Plain JavaScript objects that describe an event or action in the application.
+Must have a type property, which describes the action.
+Can also carry a payload property to pass data.
+3. Action Creators
+Functions that return action objects.
+Simplify dispatching actions by creating reusable functions.
+4. Reducers
+Pure functions that specify how the state should change in response to an action.
+Takes the current state and an action, and returns a new state.
+5. Dispatch
+A function used to send actions to the Redux store.
+Triggers state updates via the reducer.
+6. Getters (Selectors)
+Functions that access or derive specific parts of the state.
+Helps in reading state data efficiently.
+7. combineReducers
+A helper function that combines multiple reducers into a single reducer.
+Useful for managing different pieces of the application's state.
+8. applyMiddleware
+Enhances the store with additional functionality (e.g., logging, handling async actions).
+Common middleware includes Redux Thunk and Redux Saga.
+9. Middleware
+Functions that allow you to intercept and modify the action before it reaches the reducer.
+Common middleware includes Redux Thunk, Redux Saga, and Redux Logger.
+10. Redux Thunk
+Middleware for handling asynchronous actions.
+Allows action creators to return functions (instead of just actions), enabling async logic like fetching data.
+11. Redux Toolkit
+A modern, official library for efficient Redux development.
+Provides tools like createSlice, createAsyncThunk, and the configureStore method to simplify Redux usage.
+12. createSlice
+A Redux Toolkit method that combines reducers and actions into one function for more concise code.
+13. createAsyncThunk
+A Redux Toolkit method for handling async actions.
+Automatically dispatches pending, fulfilled, and rejected actions for async operations.
+14. Provider
+A React component that makes the Redux store available to the rest of the application.
+Wraps the root component in the application.
+15. useDispatch
+A React-Redux hook that returns the dispatch function, allowing components to dispatch actions.
+16. useSelector
+A React-Redux hook that allows components to select pieces of state from the Redux store.
+17. Normalized State
+A pattern in which the state is structured in a flat format (using entities and IDs) to simplify data management, especially with relationships between objects (e.g., a list of users and their associated posts).
